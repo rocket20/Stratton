@@ -292,7 +292,7 @@ input{
         top: 0;
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: auto;
         object-fit: cover;
         object-position: 83%;
     }
@@ -797,6 +797,11 @@ input{
 }
 
 /* For medium devices */
+@media (max-width: 767px) {
+  .home__data-title {
+    font-size: 24px;
+  }
+}
 @media screen and (min-width: 568px){
     .video__container{
         display: grid;
