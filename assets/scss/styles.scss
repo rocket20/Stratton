@@ -286,8 +286,8 @@ input{
 }
 
 /*=============== HOME ===============*/
-.home{
-    &__img{
+
+    .Home__img{
         position: absolute;
         top: 0;
         left: 0;
@@ -296,25 +296,25 @@ input{
         object-fit: cover;
         object-position: 83%;
     }
-    &__container{
+    .Home__container{
         position: relative;
         height: calc(100vh - var(--header-height));
         align-content: center;
         row-gap: 3rem;
     }
-    &__data-subtitle,
-    &__data-title,
-    &__social-link,
-    &__info{
+    .Home__data-subtitle,
+    .Home__data-title,
+    .Home__social-link,
+    .Home__info{
         color: var(--white-color);
     }
-    &__data{
+    .Home__data{
         &-subtitle{
             display: block;
             font-weight: var(--font-semi-bold);
             margin-bottom: var(--mb-0-75);
         }
-        &-title{
+        .Home-title{
             font-size: var(--biggest-font-size);
             font-weight: var(--font-medium);
             margin-bottom: var(--mb-2-5);
