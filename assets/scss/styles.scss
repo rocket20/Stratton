@@ -288,13 +288,11 @@ input{
 /*=============== HOME ===============*/
 
     .Home__img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        object-position: 83%;
+         max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+         height: auto; /* Mantiene la proporción de la imagen */
+         display: block; /* Para eliminar cualquier espacio adicional alrededor de la imagen */
+        margin: 0 auto; /* Establece los márgenes izquierdo y derecho como 'auto' para centrar la imagen */
+}
     }
     .Home__container{
         position: relative;
